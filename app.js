@@ -34,7 +34,7 @@ async function renderLunarCalendar() {
         const lunarData = await fetchLunarData(42.6977, 23.3219); // Sofia coordinates
         
         if (!lunarData) {
-            lunarCalendarEl.innerHTML = "<p>Failed to load lunar data.</p>";
+            lunarCalendarEl.textContent = "Failed to load lunar data.";
             return;
         }
 
