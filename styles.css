@@ -1,0 +1,46 @@
+#lunar-calendar {
+    font-family: Arial, sans-serif;
+    max-width: 400px; /* Limit the width */
+    margin: 20px auto; /* Center the calendar */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #lunar-calendar h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  #lunar-calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  #lunar-calendar th, 
+  #lunar-calendar td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  #lunar-calendar th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #lunar-calendar td {
+    background-color: #fff;
+  }
+
+  #lunar-calendar tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+
+  #lunar-calendar tr:hover td {
+    background-color: #e0e0e0;
+  }
